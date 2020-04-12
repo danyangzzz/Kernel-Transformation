@@ -1,0 +1,8 @@
+文件简介
+pre_dealdata是处理源数据的文件，主要是进行地球投影、归一化、核函数转换处理；
+POI文件用来选取源数据中兴趣点类型；
+knn和range的文件分别是用来进行knn和range兴趣点查询的文件（以6维为例），其中也直接输出了查询效果的数据；
+transtime用来计算兴趣点转换的时间；
+querytime用来计算knn查询时间；
+querytime_range用来计算range查询的时间；
+cryptograph文件用来计算加密时间。
